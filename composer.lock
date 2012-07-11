@@ -1,0 +1,19 @@
+{
+    "hash": "bd144ddead9d8a9269c6e6377defb24f",
+    "packages": [
+        {
+            "package": "lncd/oauth2server",
+            "version": "dev-develop",
+            "source-reference": "813b19cb7aec3e004564d4c06e12f990fe995823",
+            "commit-date": "1342022640"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "lncd/oauth2server": 20
+    }
+}

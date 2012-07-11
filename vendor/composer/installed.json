@@ -1,0 +1,50 @@
+[
+    {
+        "name": "lncd/oauth2server",
+        "version": "dev-develop",
+        "version_normalized": "dev-develop",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lncd/oauth2server",
+            "reference": "813b19cb7aec3e004564d4c06e12f990fe995823"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/lncd/oauth2server/zipball/813b19cb7aec3e004564d4c06e12f990fe995823",
+            "reference": "813b19cb7aec3e004564d4c06e12f990fe995823",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "type": "library",
+        "installation-source": "source",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Alex Bilbie",
+                "email": "oauth2server@alexbilbie.com",
+                "homepage": "http://www.httpster.org",
+                "role": "Developer"
+            }
+        ],
+        "description": "OAuth 2.0 server - UNDER DEVELOPMENT - NOT READY FOR PRIMETIME",
+        "homepage": "https://github.com/lncd/oauth2server",
+        "keywords": [
+            "oauth",
+            "oauth2",
+            "server"
+        ],
+        "autoload": {
+            "psr-0": {
+                "oauth2server": "src/"
+            }
+        },
+        "support": {
+            "source": "https://github.com/lncd/oauth2server/tree/develop",
+            "issues": "https://github.com/lncd/oauth2server/issues"
+        }
+    }
+]

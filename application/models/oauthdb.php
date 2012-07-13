@@ -1,8 +1,6 @@
 <?php
 
-include_once('/Users/abilbie/github/php-oauth2-server/src/oauth2server/Dbinterface.php');
-
-class OAuthdb implements OAuth2ServerDatabase
+class OAuthdb implements oauth2server\OAuth2ServerDatabase
 {
 	public function test()
 	{

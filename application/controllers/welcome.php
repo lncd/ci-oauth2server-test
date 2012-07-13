@@ -4,13 +4,15 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
-		//$this->load->model('oauthdb');
-		
-		$oauth = new OAuth2\Server();
+		$this->load->model('oauthdb');
+		$oauth = new oauth2server\Server();
 
+		echo '<pre>';
+		var_dump(get_declared_classes());
+		echo '</pre>';
+		
 		//$oauth->registerDbAbstractor($this->oauthdb);
 
-		//$oauth->test();
 
 	}
 

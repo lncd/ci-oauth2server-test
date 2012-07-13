@@ -5,7 +5,7 @@
         "version_normalized": "dev-develop",
         "source": {
             "type": "git",
-            "url": "https://github.com/lncd/oauth2server",
+            "url": "git@github.com:lncd/oauth2server.git",
             "reference": "813b19cb7aec3e004564d4c06e12f990fe995823"
         },
         "dist": {
@@ -41,10 +41,6 @@
             "psr-0": {
                 "oauth2server": "src/"
             }
-        },
-        "support": {
-            "source": "https://github.com/lncd/oauth2server/tree/develop",
-            "issues": "https://github.com/lncd/oauth2server/issues"
         }
     }
 ]

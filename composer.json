@@ -5,7 +5,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/lncd/oauth2server"
+            "url": "/Users/alexbilbie/github/oauth2server"
         }
     ]
 }

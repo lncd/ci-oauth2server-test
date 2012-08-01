@@ -1,11 +1,15 @@
 {
-    "hash": "5483a8b4ecfb7738f28f6a662fd6fedb",
+    "hash": "38bbfd56bbcad3391e684f4f70266166",
     "packages": [
         {
-            "package": "lncd/oauth2server",
+            "package": "kriswallsmith/buzz",
+            "version": "v0.7"
+        },
+        {
+            "package": "lncd/Oauth2",
             "version": "dev-develop",
-            "source-reference": "813b19cb7aec3e004564d4c06e12f990fe995823",
-            "commit-date": "1342022640"
+            "source-reference": "7201d3ad88cb1e87077739c931b2dd67987c87d9",
+            "commit-date": "1343050956"
         }
     ],
     "packages-dev": null,
@@ -14,6 +18,6 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "lncd/oauth2server": 20
+        "lncd/oauth2": 20
     }
 }

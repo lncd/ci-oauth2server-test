@@ -1,17 +1,18 @@
 [
     {
-        "name": "lncd/oauth2server",
+        "name": "lncd/Oauth2",
         "version": "dev-develop",
         "version_normalized": "dev-develop",
+        "time": "2012-07-23 13:42:36",
         "source": {
             "type": "git",
-            "url": "git@github.com:lncd/oauth2server.git",
-            "reference": "813b19cb7aec3e004564d4c06e12f990fe995823"
+            "url": "git@github.com:lncd/OAuth2.git",
+            "reference": "7201d3ad88cb1e87077739c931b2dd67987c87d9"
         },
         "dist": {
             "type": "zip",
-            "url": "https://github.com/lncd/oauth2server/zipball/813b19cb7aec3e004564d4c06e12f990fe995823",
-            "reference": "813b19cb7aec3e004564d4c06e12f990fe995823",
+            "url": "https://github.com/lncd/OAuth2/zipball/7201d3ad88cb1e87077739c931b2dd67987c87d9",
+            "reference": "7201d3ad88cb1e87077739c931b2dd67987c87d9",
             "shasum": ""
         },
         "require": {
@@ -31,7 +32,7 @@
             }
         ],
         "description": "OAuth 2.0 server - UNDER DEVELOPMENT - NOT READY FOR PRIMETIME",
-        "homepage": "https://github.com/lncd/oauth2server",
+        "homepage": "https://github.com/lncd/OAuth2",
         "keywords": [
             "oauth",
             "oauth2",
@@ -39,7 +40,58 @@
         ],
         "autoload": {
             "psr-0": {
-                "oauth2server": "src/"
+                "Oauth2": "src/"
+            }
+        },
+        "support": {
+            "source": "https://github.com/lncd/OAuth2/tree/develop",
+            "issues": "https://github.com/lncd/OAuth2/issues"
+        }
+    },
+    {
+        "name": "kriswallsmith/buzz",
+        "version": "v0.7",
+        "version_normalized": "0.7.0.0",
+        "time": "2012-06-25 19:01:38",
+        "source": {
+            "type": "git",
+            "url": "http://github.com/kriswallsmith/Buzz.git",
+            "reference": "v0.7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/kriswallsmith/Buzz/zipball/v0.7",
+            "reference": "v0.7",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "suggest": {
+            "ext-curl": "*"
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kris Wallsmith",
+                "email": "kris.wallsmith@gmail.com",
+                "homepage": "http://kriswallsmith.net/",
+                "role": null
+            }
+        ],
+        "description": "Lightweight HTTP client",
+        "homepage": "https://github.com/kriswallsmith/Buzz",
+        "keywords": [
+            "curl",
+            "http client"
+        ],
+        "autoload": {
+            "psr-0": {
+                "Buzz": "lib/"
             }
         }
     }

@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'oauth2server' => $vendorDir . '/lncd/oauth2server/src/',
+    'Oauth2' => $vendorDir . '/lncd/Oauth2/src/',
+    'Buzz' => $vendorDir . '/kriswallsmith/buzz/lib/',
 );

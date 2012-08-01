@@ -1,11 +1,12 @@
 {
     "require": {
-            "lncd/oauth2server": "dev-develop"
+            "lncd/OAuth2": "dev-develop",
+            "kriswallsmith/buzz": "*"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "/Users/alexbilbie/github/oauth2server"
+            "url": "git@github.com:lncd/OAuth2.git"
         }
     ]
 }
